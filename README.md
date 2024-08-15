@@ -5,10 +5,15 @@
 ## 检索指定字符串
 例如：123456.dnslog.cn.com（微信中发送这个域名信息）
 pid不填写时，会遍历全部进程,将结果pid，进程名，进程路径表格形式输出
-![image](https://github.com/user-attachments/assets/3fcbb4e5-5531-495b-b608-cbf27af832ba)
+
+![image](https://github.com/user-attachments/assets/a335869d-306a-4fc1-97aa-e514a0c157b1)
+
 
 将结果保存至Memory_search_result文件中
-![image](https://github.com/user-attachments/assets/83e387b1-3674-4648-899c-21df0d7ab624)
+
+![image](https://github.com/user-attachments/assets/a860dd13-5725-4bc5-8378-30d3dc7fce79)
+
+
 
 ## 指定进程PID进行检索
 指定进程检索，会将对应地址对应内存字符部分打印出来，默认长度为50，即可确认，相关字符串的前后的具体操作
