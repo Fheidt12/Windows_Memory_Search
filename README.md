@@ -1,22 +1,30 @@
 # 工具运行界面
-![image](https://github.com/user-attachments/assets/c7be3697-ec75-4b95-a310-f4be2fed960a)
+
+V1.2版本
+![image](https://github.com/user-attachments/assets/2f6b6f33-c019-43fc-b0bc-7351ef090a67)
+
 免责声明：此工具仅限于安全研究，用户承担因使用此工具而导致的所有法律和相关责任！作者不承担任何法律责任
 
+# V1.2
+## 检索指定字符串
+例如：123456789.dnslog.cn（微信中发送这个域名信息）
+pid不填写时，会遍历全部进程,将结果pid，进程名，和外联地址进行输出
+![image](https://github.com/user-attachments/assets/4586bdf7-0319-403a-8935-85e4a8443c47)
+
+## 指定进程PID进行检索
+指定进程检索，会将对应地址对应内存字符部分打印出来，默认长度为100，即可确认，相关字符串的前后的具体操作
+![image](https://github.com/user-attachments/assets/f74183c6-2928-4796-9d99-9f9a5f9469df)
+
+# V1.1
+![image](https://github.com/user-attachments/assets/c7be3697-ec75-4b95-a310-f4be2fed960a)
 ## 检索指定字符串
 例如：123456.dnslog.cn.com（微信中发送这个域名信息）
 pid不填写时，会遍历全部进程,将结果pid，进程名，进程路径表格形式输出
 
 ![image](https://github.com/user-attachments/assets/a335869d-306a-4fc1-97aa-e514a0c157b1)
 
-
-将结果保存至Memory_search_result文件中
-
-![image](https://github.com/user-attachments/assets/a860dd13-5725-4bc5-8378-30d3dc7fce79)
-
-
-
 ## 指定进程PID进行检索
-指定进程检索，会将对应地址对应内存字符部分打印出来，默认长度为50，即可确认，相关字符串的前后的具体操作
+指定进程检索，会将对应地址对应内存字符部分打印出来，默认长度为100，即可确认，相关字符串的前后的具体操作
 ![image](https://github.com/user-attachments/assets/0f043fe3-0f47-42db-91e9-302e3efe6384)
 
 ## 使用场景  
